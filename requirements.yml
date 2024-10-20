@@ -6,3 +6,6 @@
   - src: git@github.com:drewplonq/vector.git
     scm: git
     name: vector 
+  - src: git@github.com:drewplonq/lighthouse-role.git
+    scm: git
+    name: lighthouse 

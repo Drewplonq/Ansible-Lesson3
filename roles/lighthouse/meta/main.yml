@@ -1,7 +1,7 @@
 galaxy_info:
   author: Drew
   description: install lighthouse
- 
+
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -29,8 +29,8 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-      - "7"
-      - "8"
+        - "7"
+        - "8"
   # - name: SomePlatform
   #   versions:
   #   - all

@@ -3,5 +3,5 @@
   become: true
   ansible.builtin.service:
     name: nginx
-    state: restarted
+    state: started
     daemon_reload: true

@@ -10,4 +10,3 @@
     version: master
     dest: "{{ lighthouse_dir }}"
   notify: Start nginx service
-  

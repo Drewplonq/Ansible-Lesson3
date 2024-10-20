@@ -3,7 +3,7 @@
   become: true
   ansible.builtin.yum_repository:
     name: epel
-    baseurl: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/
+    baseurl: http://nginx.org/packages/centos/$releasever/$basearch/
     description: EPEL YUM repo
     state: present
 - name: Install nginx | Nginx
